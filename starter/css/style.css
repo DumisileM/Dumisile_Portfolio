@@ -153,43 +153,47 @@ span{
   grid-template-columns:0.5fr 1.75fr 1.75fr;
   grid-template-rows: 2fr 1fr 1fr;
   grid-template-areas: 
-  "work-h2 project-1 project-1"
-  "work-h2 project-2 project-3"
+  "work-h2 horiseon horiseon"
+  "work-h2 jakes-eatery project-3"
   "work-h2 project-4 project-5";
 }
 #work h2{
   grid-area: work-h2;
   border-right: var(--border-style);
 }
-#project-1{
-  grid-area: project-1;
-  border: var(--work-items-border);
-  background-image:url('/images/marketing.jpeg');
-  background-size: cover;
-  opacity: 0.6;
-  display: flex;
-  align-items:flex-end;
+.project-contents{
+ background-size: cover;
   
+ 
 }
-#project-1 p{
-  border: 1px solid var(--background-color);
-  background-color:var(--accent-color);
-  color: #1C1F33;
+#horiseon{
+  grid-area: horiseon;
+  border: var(--work-items-border);
+  background-image:url('/images/HoriseonScreenshot.png');
+}
+
+.project-contents button{
+  /* border: var(--border-style); */
+  background-color:white;
+  border: var(--border-style);
   width:15%;
   height:30%;
-  z-index: 5;
-  opacity: 10;
-  
-
-
+  position:relative;
+  top:66%;
+  left: 1%;
 }
-#project-1 p span{
-  color: #1C1F33;
+.project-contents button a{
+  text-decoration: none;
+  font-weight:bold ;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:15px;
 }
 
-#project-2{
-  grid-area: project-2;
+
+#jakes-eatery{
+  grid-area: jakes-eatery;
   border: var(--work-items-border);
+  background-image: url('/images/jakes-eatery.png');
  
 }
 #project-3{
@@ -296,7 +300,7 @@ p {
     display: grid;
     grid-area: about;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 100px;
     grid-template-areas: 
     "about-h2 "
     "profile-image"
@@ -311,8 +315,8 @@ p {
     grid-template-rows:  100px 3fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 
     "work-h2"
-    "project-1"
-    "project-2"
+    "horiseon"
+    "jakes-eatery"
     "project-3"
     "project-4" 
     "project-5";
@@ -320,15 +324,37 @@ p {
   
   }
   #work h2{
-    grid-area: work-h2;
+  
     padding: var(--items-padding);
     border-right: none;
     border-bottom: var(--border-style);
   }
+  .project-contents{
+    background-size: cover;
+    position: relative;
+     
+    
+   }
+   
+   .project-contents button{
+     /* border: var(--border-style); */
+     background-color:white;
+     border: var(--border-style);
+     width: fit-content;
+     
+     position:absolute;
+     top: 70%;
+     left: 1%;
+   }
+   .project-contents {
+     text-decoration: none;
+     font-weight:bold ;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size:0.5rem;
+   }
   #contact{
     display: grid;
     grid-area: contact;
-    
     grid-template-columns: 1fr;
     grid-template-rows: 100px;
     grid-template-areas: 
@@ -344,7 +370,8 @@ p {
     border-bottom: var(--border-style);
   }
   #about h2{
-    grid-area:about-h2;
+    
+    padding: var(--items-padding);
     border-right: none;
     border-bottom: var(--border-style);
   }
