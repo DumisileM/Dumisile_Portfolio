@@ -154,7 +154,7 @@ span{
   grid-template-rows: 2fr 1fr 1fr;
   grid-template-areas: 
   "work-h2 horiseon horiseon"
-  "work-h2 jakes-eatery project-3"
+  "work-h2 jakes-eatery css-cheatsheet"
   "work-h2 project-4 project-5";
 }
 #work h2{
@@ -163,51 +163,51 @@ span{
 }
 .project-contents{
  background-size: cover;
+ text-decoration: none;
+  font-weight:bold ;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:15px;
   
  
 }
+
 #horiseon{
   grid-area: horiseon;
   border: var(--work-items-border);
   background-image:url('/images/HoriseonScreenshot.png');
+  padding: var(--items-padding);
+  margin: var(--items-margin);
 }
-
-.project-contents button{
-  /* border: var(--border-style); */
-  background-color:white;
-  border: var(--border-style);
-  width:15%;
-  height:30%;
-  position:relative;
-  top:66%;
-  left: 1%;
-}
-.project-contents button a{
-  text-decoration: none;
-  font-weight:bold ;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size:15px;
-}
-
 
 #jakes-eatery{
   grid-area: jakes-eatery;
   border: var(--work-items-border);
   background-image: url('/images/jakes-eatery.png');
+  padding: var(--items-padding);
+  margin: var(--items-margin);
  
 }
-#project-3{
-  grid-area: project-3;
+#css-cheatsheet{
+  grid-area: css-cheatsheet;
   border: var(--work-items-border);
+  background-image: url('/images/css-cheatsheet.png');
+  padding: var(--items-padding);
+  margin: var(--items-margin);
+
+
  
 }
 #project-4{
   grid-area: project-4;
   border: var(--work-items-border);
+  padding: var(--items-padding);
+  margin: var(--items-margin);
  
 }#project-5{
   grid-area: project-5;
   border: var(--work-items-border);
+  padding: var(--items-padding);
+  margin: var(--items-margin);
   
 }
 
@@ -255,6 +255,7 @@ p {
     height: 100%;
     align-items: flex-end;
     justify-content: flex-end;
+    flex-direction: column;
   }
   nav a {
         border-bottom: none;     
@@ -317,7 +318,7 @@ p {
     "work-h2"
     "horiseon"
     "jakes-eatery"
-    "project-3"
+    "css-cheatsheet"
     "project-4" 
     "project-5";
     
@@ -336,17 +337,8 @@ p {
     
    }
    
-   .project-contents button{
-     /* border: var(--border-style); */
-     background-color:white;
-     border: var(--border-style);
-     width: fit-content;
-     
-     position:absolute;
-     top: 70%;
-     left: 1%;
-   }
-   .project-contents {
+
+   .project-contents  {
      text-decoration: none;
      font-weight:bold ;
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -359,9 +351,7 @@ p {
     grid-template-rows: 100px;
     grid-template-areas: 
     "contact-h2"
-    "contact-content"
-    
-    ;
+    "contact-content" ;
   
   }
   #contact h2{
@@ -376,8 +366,6 @@ p {
     border-bottom: var(--border-style);
   }
 
-  
-   
   }
 
   @media only screen and (max-width: 400px){
