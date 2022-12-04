@@ -148,6 +148,8 @@ span{
 #work{
   display:grid;
   grid-area: work;
+  margin-bottom: var(--items-margin);
+  padding-bottom: var(--items-padding);
   grid-template-columns:0.5fr 1.75fr 1.75fr;
   grid-template-rows: 2fr 1fr 1fr;
   grid-template-areas: 
@@ -162,8 +164,29 @@ span{
 #project-1{
   grid-area: project-1;
   border: var(--work-items-border);
+  background-image:url('/images/marketing.jpeg');
+  background-size: cover;
+  opacity: 0.6;
+  display: flex;
+  align-items:flex-end;
+  
+}
+#project-1 p{
+  border: 1px solid var(--background-color);
+  background-color:var(--accent-color);
+  color: #1C1F33;
+  width:15%;
+  height:30%;
+  z-index: 5;
+  opacity: 10;
+  
+
 
 }
+#project-1 p span{
+  color: #1C1F33;
+}
+
 #project-2{
   grid-area: project-2;
   border: var(--work-items-border);
