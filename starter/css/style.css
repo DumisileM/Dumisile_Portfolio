@@ -242,6 +242,21 @@ span{
 }
 #contact-content{
   grid-area: contact-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contact-content > p,a{
+  padding: var(--items-padding);
+  border-bottom: var(--border-style);
+  margin: var(--items-margin);
+}
+#contact-content > a{
+  padding: var(--items-padding);
+  margin: 0.5%;
+  text-decoration: none;
+  color:white;
+  border-bottom: var(--border-style)
 }
 
 /* TEXT AND HEADINGS */
@@ -349,11 +364,8 @@ p {
   .project-contents{
     background-size: cover;
     position: relative;
-     
     
    }
-   
-
    .project-contents  {
      text-decoration: none;
      font-weight:bold ;
@@ -370,6 +382,7 @@ p {
     "contact-content" ;
   
   }
+ 
   #contact h2{
     padding: var(--items-padding);
     border-right: none;
@@ -384,7 +397,7 @@ p {
 
   }
 
-  @media only screen and (max-width: 400px){
+  @media only screen and (max-width: 490px){
  
     #subtitle-div h2{
       color:white;
@@ -392,5 +405,10 @@ p {
       text-align: center;
       width: fit-content;
   
+    }
+    #contact-content{
+      grid-area: contact-content;
+      display: flex;
+     flex-direction: column;
     }
   }
