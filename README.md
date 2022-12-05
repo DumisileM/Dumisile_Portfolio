@@ -20,7 +20,10 @@ For reference, this is what the website should look like:
 
 ![](https://github.com/DumisileM/Dumisile_Portfolio/blob/main/assets/images/Portfolio_GIF.gif)
 
-![alt text](https://github.com/DumisileM/Dumisile_Portfolio/assets/images/Portfolio_GIF.gif)
+
+![alt text](/assets/images/port_big_screen.png)
+
+
 
 
 
