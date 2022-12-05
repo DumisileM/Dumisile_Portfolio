@@ -12,8 +12,14 @@ The portfolio has been deployed on GitHub pages and can be accessed via this lin
 https://dumisilem.github.io/Dumisile_Portfolio/
 
 
+
+
 ## Usage 
 To view each project, simply scroll to the 'Work' section of page and click on any of project images/titles, the project should open.     
+### Troubleshooting
+- When viewing the webiste, ensure to clear cache to ensure that images are visible
+- When testing out the responsiveness, and it looks like the site is not responsive,
+try  refreshing the page.
 
 For reference, this is what the website should look like:  
 
