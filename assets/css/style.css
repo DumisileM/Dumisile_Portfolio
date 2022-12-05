@@ -53,7 +53,7 @@ nav a:hover{
 
 /* HERO/ BANNER  */
 .hero-banner{
-  background: url(\assets\images\banner-orange.jpeg);
+  background: url('../images/banner-orange.jpeg');
   background-size: cover;
   margin: auto;
   display: grid;
@@ -189,7 +189,7 @@ span{
 #horiseon{
   grid-area: horiseon;
   border: var(--work-items-border);
-  background-image:url(\assets\images\HoriseonScreenshot.png);
+  background-image:url('../images/HoriseonScreenshot.png');
   padding: var(--items-padding);
   margin: var(--items-margin);
 }
@@ -197,7 +197,7 @@ span{
 #jakes-eatery{
   grid-area: jakes-eatery;
   border: var(--work-items-border);
-  background-image: url(\assets\images\jakes-eatery.png);
+  background-image: url('../images/jakes-eatery.png');
   padding: var(--items-padding);
   margin: var(--items-margin);
  
@@ -205,7 +205,7 @@ span{
 #css-cheatsheet{
   grid-area: css-cheatsheet;
   border: var(--work-items-border);
-  background-image: url(\assets\images\css-cheatsheet.png);
+  background-image: url('../images/css-cheatsheet.png');
   padding: var(--items-padding);
   margin: var(--items-margin);
 
@@ -215,7 +215,7 @@ span{
 #calculator{
   grid-area: calculator;
   border: var(--work-items-border);
-  background-image: url(\assets\images\calculator.jpg);
+  background-image: url('../images/calculator.jpg');
   padding: var(--items-padding);
   margin: var(--items-margin);
  
@@ -224,7 +224,7 @@ span{
   border: var(--work-items-border);
   padding: var(--items-padding);
   margin: var(--items-margin);
-  background-image: url(\assets\images\study.jpg);
+  background-image: url('../images/study.jpg');
 
   
 }
