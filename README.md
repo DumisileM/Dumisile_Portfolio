@@ -18,9 +18,9 @@ To view each project, simply scroll to the 'Work' section of page and click on a
 For reference, this is what the website should look like:  
 
 
-![](https://github.com/DumisileM/Dumisile_Portfolio/starter/assets/images/Portfolio_GIF.gif)
+![](https://github.com/DumisileM/Dumisile_Portfolio/blob/main/assets/images/Portfolio_GIF.gif)
 
-![alt text](https://github.com/DumisileM/Dumisile_Portfolio/starter/assets/images/Portfolio_GIF.gif)
+![alt text](https://github.com/DumisileM/Dumisile_Portfolio/assets/images/Portfolio_GIF.gif)
 
 
 
