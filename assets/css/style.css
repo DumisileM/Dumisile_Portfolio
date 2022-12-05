@@ -53,7 +53,7 @@ nav a:hover{
 
 /* HERO/ BANNER  */
 .hero-banner{
-  background: url('/assets/images/banner-orange.jpeg');
+  background: url(/assets/images/banner-orange.jpeg);
   background-size: cover;
   margin: auto;
   display: grid;
